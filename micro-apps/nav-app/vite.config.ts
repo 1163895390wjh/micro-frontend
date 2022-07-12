@@ -18,6 +18,7 @@ export default defineConfig({
   server: {
     host: "0.0.0.0",
     port,
+    open: true,
     origin: `//localhost:3001`,
     headers: {
       "Access-Control-Allow-Origin": "*",

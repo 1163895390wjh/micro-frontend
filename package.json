@@ -1,0 +1,25 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "微前端框架探索",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:install": "node index.js -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1163895390wjh/micro-frontend.git"
+  },
+  "author": "Martin,wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1163895390wjh/micro-frontend/issues"
+  },
+  "homepage": "https://github.com/1163895390wjh/micro-frontend#readme",
+  "dependencies": {
+    "@types/node": "^18.0.3",
+    "svg-sprite-loader": "^6.0.11",
+    "svgo": "^2.8.0"
+  }
+}
